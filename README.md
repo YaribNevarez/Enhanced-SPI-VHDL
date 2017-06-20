@@ -1,11 +1,12 @@
 # Enhanced SPI VHDL
 
 The communication between the Zynq device and the external devices is established by using SPI protocol. Inside the custom IPs (AXI peripherals) it is instantiated an Enhanced SPI which was designed with the following features.
-Baud rate divider for output clock signal (SCLK)
-Configurable data length (8, 16, 24 and 32 bits)
-Flexible Settle-time for specific devices
-Configurable clock polarity (CPOL) and clock phase (CPHA).
-Full duplex data transmission.
+
+* Baud rate divider for output clock signal (SCLK)
+* Configurable data length (8, 16, 24 and 32 bits)
+* Flexible Settle-time for specific devices
+* Configurable clock polarity (CPOL) and clock phase (CPHA).
+*Full duplex data transmission.
 
 The implemented VHDL code for the Enhanced SPI is listed below.
 
