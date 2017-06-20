@@ -6,7 +6,7 @@ The communication between the Zynq device and the external devices is establishe
 * Configurable data length (8, 16, 24 and 32 bits)
 * Flexible Settle-time for specific devices
 * Configurable clock polarity (CPOL) and clock phase (CPHA).
-*Full duplex data transmission.
+* Full duplex data transmission.
 
 The implemented VHDL code for the Enhanced SPI is listed below.
 
